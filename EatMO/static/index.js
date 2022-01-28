@@ -349,7 +349,7 @@
         }
         SubmitResults();
         if (score <= 59) return '啧，真菜';
-        if (score <= 119) return '是在拿我练手么？';
+        if (score <= 99) return '是在拿我练手么？';
         if (score <= 159) return '哎呀，好像没有想象中厉害嘛';
         if (score <= 199) return '累了吧，要不要稍微休息一下？';
         return '人？';
